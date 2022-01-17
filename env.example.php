@@ -1,17 +1,17 @@
 <?php
 
 $variables = [
-    'DB_HOST' => '', // Your database ip address or host name.
-    'DB_USERNAME' => '', // Your database username.
-    'DB_PASSWORD' => '', // Your database password.
-    'DB_PORT' => '', // Your database port.
-    'DB_NAME' => '', // Your database name.
-    'STEAM_API_KEY' => '', // Your steam API key.
+    'DB_HOST' => 'knarklangare.se', // Your database ip address or host name.
+    'DB_USERNAME' => 'mysql3', // Your database username.
+    'DB_PASSWORD' => 'flanhare', // Your database password.
+    'DB_PORT' => '3306', // Your database port.
+    'DB_NAME' => 'get5', // Your database name.
+    'STEAM_API_KEY' => '00F0A325A10A7457ED690A6D2871F745', // Your steam API key.
     'MATCHES_PAGE_LIMIT' => 10, // Page limit for matches page.
     'PLAYERS_PAGE_LIMIT' => 12, // Page limit for players page.
     'WEBSITE' => '/home', // Path to your main website
-    'URL' => '', // The URL to the league panel
-    'DISCORD' => '', // A permanent invite link to your Discord server
+    'URL' => 'https://league.knarklangare.se', // The URL to the league panel
+    'DISCORD' => 'https://discord.gg/PAQjTY9Yp3', // A permanent invite link to your Discord server
 
     'BASE_TITLE' => 'B3none', // This is the base title for your site.
     'DESCRIPTION' => 'Top quality PUGs and 10 mans.', // Meta description
@@ -35,8 +35,9 @@ $variables = [
         'de_inferno,/img/maps/inferno.jpg',
     ],
 
-    'RCON' => '', // Servers RCON password. (Must be the same on every server)
+    'RCON' => 'adminKwLxiZvZ', // Servers RCON password. (Must be the same on every server)
     'SERVERS' => [
+        'knarklangare.se:27015'
         // Servers (this cannot be a URL)
         // 'ip:port'
     ],
@@ -46,6 +47,11 @@ $variables = [
     // I'd suggest giving each API key a comment saying what it is
     // https://www.random.org/strings/?num=1&len=20&digits=on&upperalpha=on&loweralpha=on&unique=on&format=plain
     'API_KEYS' => [
+        'j9ltviCL3Tks7B65EbWe',
+        'FZ94YnmVfE6pY7OdYule',
+        'ciNS63cIyvpomTnK6zAB',
+        'WNnf3uC63QX2Volo1khq',
+
         // '', // Discord bot
         // '', // CS:GO Server
     ],
